@@ -30,3 +30,5 @@ My Politics Quality API
 1. `brew upgrade heroku/brew/heroku` (to upgrade heroku if needed) `brew doctor` will also patch up homebrew
 1. `heroku login` to log in w/ CLI
 1. `heroku create <name-of-app>` will house your project at the heroku-given url: "https://polity-api.herokuapp.com/"
+1. Push to git then `git push heroku master` to deploy
+1. head to your app then go to the slash route you've created
