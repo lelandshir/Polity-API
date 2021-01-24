@@ -1,260 +1,290 @@
 {
-	"presidents": [
+	"polityapi": [
 		{
-			"id": 0,
-			"name": "Joe Biden",
-			"bName": "Joseph Robinette Biden Jr.",
-			"bDay": "November 20, 1942",
-			"bPlace": "Scranton, Pennsylvania",
-			"party": "Democratic",
-			"isProgressive": false,
-			"hasLied": true,
-			"roles": [
+			"presidency": [
 				{
-					"title": "46th President, USA",
-					"elected": true,
-					"in_office": "January 20, 2021",
-					"preceded_by": "Donald Trump",
-					"vice_president": "Kamala Harris"
-				},
-				{
-					"title": "47th Vice President, USA",
-					"in_office": "January 20, 2009 - January 2017",
-					"president": "Barack Obama"
-				},
-				{
-					"title": "Chair of the Senate Foreign Relations Committee",
-					"in_office": "January 3, 2007 – January 3, 2009"
-				},
-				{
-					"title": "Chair of the International Narcotics Control Caucus",
-					"in_office": "January 3, 2007 – January 3, 2009"
-				},
-				{
-					"title": "Chair of the Senate Judiciary Committee",
-					"in_office": "January 3, 1987 – January 3, 1995"
-				},
-				{
-					"title": "US Senator, Delaware",
-					"when": "January 3, 1973 – January 15, 2009"
+					"id": 0,
+					"name": "Joe Biden",
+					"bName": "Joseph Robinette Biden Jr.",
+					"bDay": "November 20, 1942",
+					"bPlace": "Scranton, Pennsylvania",
+					"party": "Democratic",
+					"website": "https://joebiden.com",
+					"image": "https://static01.nyt.com/images/2021/01/20/us/politics/20biden-photos-top/20biden-photos-top-verticalTwoByThree735-v2.jpg",
+					"isProgressive": false,
+					"hasLied": true,
+					"social_media": [
+						{
+							"app": "facebook",
+							"profile": "https://www.facebook.com/joebiden/"
+						},
+						{
+							"app": "instagram",
+							"profile": "https://www.instagram.com/joebiden"
+						},
+						{
+							"app": "twitter",
+							"profile": "https://twitter.com/JoeBiden"
+						},
+						{
+							"app": "ballotpedia",
+							"profile": "https://ballotpedia.org/Joe_Biden"
+						}
+					],
+					"roles": [
+						{
+							"title": "46th President, USA",
+							"elected": true,
+							"in_office": "January 20, 2021",
+							"preceded_by": "Donald Trump",
+							"vice_president": "Kamala Harris"
+						},
+						{
+							"title": "47th Vice President, USA",
+							"in_office": "January 20, 2009 - January 2017",
+							"president": "Barack Obama"
+						},
+						{
+							"title": "Chair of the Senate Foreign Relations Committee",
+							"in_office": "January 3, 2007 – January 3, 2009"
+						},
+						{
+							"title": "Chair of the International Narcotics Control Caucus",
+							"in_office": "January 3, 2007 – January 3, 2009"
+						},
+						{
+							"title": "Chair of the Senate Judiciary Committee",
+							"in_office": "January 3, 1987 – January 3, 1995"
+						},
+						{
+							"title": "US Senator, Delaware",
+							"when": "January 3, 1973 – January 15, 2009"
+						}
+					],
+					"favors_working_class": [
+						{
+							"what": "Unveiled a 1.9-trillion Economic Aid Package",
+							"when": "Thursday, January 21, 2021",
+							"summary": "includes a direct payment of $1,400 to most Americans — which, when combined with the $600 already sent, would give recipients $2,000 in stimulus money.",
+							"event": "COVID-19 Global Pandemic"
+						}
+					],
+					"favors_wealth_class": [],
+					"executive_actions": [
+						{
+							"date": "January 20",
+							"topic": "Regulation",
+							"reversal": true,
+							"summary": "Directs OMB director to develop recommendations to modernize regulatory review and undoes Trump's regulatory approval process"
+						},
+						{
+							"date": "January 20",
+							"topic": "Ethics",
+							"reversal": false,
+							"summary": "Requires executive branch appointees to sign an ethics pledge barring them from acting in personal interest and requiring them to uphold the independence of the Department of Justice"
+						},
+						{
+							"date": "January 20",
+							"topic": "Immigration",
+							"reversal": false,
+							"summary": "Extends deferrals of deportation and work authorizations for Liberians with a safe haven in the United States until June 30, 2022"
+						},
+						{
+							"date": "January 20",
+							"topic": "Immigration",
+							"reversal": true,
+							"summary": "Halts construction of the border wall by terminating the national emergency declaration used to fund it"
+						},
+						{
+							"date": "January 20",
+							"topic": "Immigration",
+							"reversal": true,
+							"summary": "Undoes Trump's expansion of immigration enforcement within the United States"
+						},
+						{
+							"date": "January 20",
+							"topic": "Immigration",
+							"reversal": true,
+							"summary": "Reverses the Trump administration's restrictions on US entry for passport holders from seven Muslim-majority countries"
+						},
+						{
+							"date": "January 20",
+							"topic": "Immigration",
+							"reversal": false,
+							"summary": "Fortifies DACA after Trump's efforts to undo protections for undocumented people brought into the country as children"
+						},
+						{
+							"date": "January 20",
+							"topic": "Census",
+							"reversal": true,
+							"summary": "Requires non-citizens to be included in the Census and apportionment of congressional representatives"
+						},
+						{
+							"date": "January 20",
+							"topic": "Equity",
+							"reversal": false,
+							"summary": "Prevents workplace discrimination on the basis of sexual orientation or gender identity"
+						},
+						{
+							"date": "January 20",
+							"topic": "Equity",
+							"reversal": true,
+							"summary": "Prevents workplace discrimination on the basis of sexual orientation or gender identity"
+						},
+						{
+							"date": "January 20",
+							"topic": "Environment",
+							"reversal": true,
+							"summary": "Rescinds the Trump administration's 1776 Commission, directs agencies to review their actions to ensure racial equity"
+						},
+						{
+							"date": "January 20",
+							"topic": "Environment",
+							"reversal": true,
+							"summary": "Cancels the Keystone XL pipeline and directs agencies to review and reverse more than 100 Trump actions on the environment"
+						},
+						{
+							"date": "January 20",
+							"topic": "Environment",
+							"reversal": true,
+							"summary": "Rejoins the Paris climate accord, a process that will take 30 days"
+						},
+						{
+							"date": "January 20",
+							"topic": "Economy",
+							"reversal": false,
+							"summary": "Extends the existing pause on student loan payments and interest for Americans with federal student loans until at least September 30"
+						},
+						{
+							"date": "January 20",
+							"topic": "Economy",
+							"reversal": false,
+							"summary": "Extends the existing nationwide moratorium on evictions and foreclosures until at least March 31"
+						},
+						{
+							"date": "January 20",
+							"topic": "Coronavirus",
+							"reversal": false,
+							"summary": "Creates the position of Covid-19 Response Coordinator, reporting directly to Biden and managing efforts to produce and distribute vaccines and medical equipment"
+						},
+						{
+							"date": "January 20",
+							"topic": "Coronavirus",
+							"reversal": true,
+							"summary": "Stops the United States' withdrawal from the World Health Organization, with Dr. Anthony Fauci becoming the head of the delegation to the WHO"
+						},
+						{
+							"date": "January 20",
+							"topic": "Coronavirus",
+							"reversal": false,
+							"summary": "Launches a '100 Days Masking Challenge' asking Americans to wear masks for 100 days. Requires masks and physical distancing in federal buildings, on federal lands and by government contractors, and urges states and local governments to do the same."
+						},
+						{
+							"date": "January 21",
+							"topic": "Coronavirus",
+							"reversal": false,
+							"summary": "A presidential directive to restore America's leadership, support the international pandemic response effort, promote resilience for future threats and advance global health security and the Global Health Security Agenda"
+						},
+						{
+							"date": "January 21",
+							"topic": "Coronavirus",
+							"reversal": false,
+							"summary": "Creates the Covid-19 Health Equity Task Force to help ensure an equitable pandemic response and recovery"
+						},
+						{
+							"date": "January 21",
+							"topic": "Coronavirus",
+							"reversal": false,
+							"summary": "Requires mask wearing in airports and on certain modes of transportation, including many trains, airplanes, maritime vessels and intercity buses. International travelers must provide proof of a negative Covid-19 test prior to coming to the US"
+						},
+						{
+							"date": "January 21",
+							"topic": "Coronavirus",
+							"reversal": false,
+							"summary": ""
+						},
+						{
+							"date": "January 21",
+							"topic": "Coronavirus",
+							"reversal": false,
+							"summary": "Calls on the Occupational Safety and Health Administration to release clear guidance on Covid-19, decide whether to establish emergency temporary standards, and directs OSHA to enforce worker health and safety requirements"
+						},
+						{
+							"date": "January 21",
+							"topic": "Coronavirus",
+							"reversal": false,
+							"summary": "Directs the Department of Education and HHS to provide guidance for safely reopening and operating schools, childcare providers and institutions of higher education"
+						},
+						{
+							"date": "January 21",
+							"topic": "Coronavirus",
+							"reversal": false,
+							"summary": ""
+						},
+						{
+							"date": "January 21",
+							"topic": "Coronavirus",
+							"reversal": false,
+							"summary": "Directs FEMA to create federally-supported community vaccination centers"
+						},
+						{
+							"date": "January 21",
+							"topic": "Coronavirus",
+							"reversal": false,
+							"summary": ""
+						},
+						{
+							"date": "January 21",
+							"topic": "Coronavirus",
+							"reversal": false,
+							"summary": "Enhances the nation's collection, production, sharing and analysis of coronavirus data"
+						},
+						{
+							"date": "January 21",
+							"topic": "Coronavirus",
+							"reversal": false,
+							"summary": "Establishes a preclinical program to boost development of therapeutics in response to pandemic threats"
+						},
+						{
+							"date": "January 21",
+							"topic": "Coronavirus",
+							"reversal": false,
+							"summary": "Establishes the Pandemic Testing Board to expand US coronavirus testing capacity"
+						},
+						{
+							"date": "January 21",
+							"topic": "Coronavirus",
+							"reversal": false,
+							"summary": "Directs FEMA to expand reimbursement to states to fully cover the cost for National Guard personnel and emergency supplies"
+						},
+						{
+							"date": "January 21",
+							"topic": "Coronavirus",
+							"reversal": false,
+							"summary": "Accelerates manufacturing and delivery of supplies for vaccination, testing and Personal Protective Equipment"
+						},
+						{
+							"date": "January 22",
+							"topic": "Economy",
+							"reversal": false,
+							"summary": "Calls for assistance to those who are struggling to buy food, missed out on stimulus checks or are unemployed."
+						},
+						{
+							"date": "January 22",
+							"topic": "Economy",
+							"reversal": true,
+							"summary": "Restores collective bargaining power and worker protections for federal workers, and lays the foundation for $15 minimum wage"
+						}
+					],
+					"controversy": []
 				}
-			],
-			"favors_working_class": [
-				{
-					"what": "Unveiled a 1.9-trillion Economic Aid Package",
-					"when": "Thursday, January 21, 2021",
-					"summary": "includes a direct payment of $1,400 to most Americans — which, when combined with the $600 already sent, would give recipients $2,000 in stimulus money.",
-					"event": "COVID-19 Global Pandemic"
-				}
-			],
-			"favors_wealth_class": [],
-			"executive_actions": [
-				{
-					"date": "January 20",
-					"topic": "Regulation",
-					"reversal": true,
-					"summary": "Directs OMB director to develop recommendations to modernize regulatory review and undoes Trump's regulatory approval process"
-				},
-				{
-					"date": "January 20",
-					"topic": "Ethics",
-					"reversal": false,
-					"summary": "Requires executive branch appointees to sign an ethics pledge barring them from acting in personal interest and requiring them to uphold the independence of the Department of Justice"
-				},
-				{
-					"date": "January 20",
-					"topic": "Immigration",
-					"reversal": false,
-					"summary": "Extends deferrals of deportation and work authorizations for Liberians with a safe haven in the United States until June 30, 2022"
-				},
-				{
-					"date": "January 20",
-					"topic": "Immigration",
-					"reversal": true,
-					"summary": "Halts construction of the border wall by terminating the national emergency declaration used to fund it"
-				},
-				{
-					"date": "January 20",
-					"topic": "Immigration",
-					"reversal": true,
-					"summary": "Undoes Trump's expansion of immigration enforcement within the United States"
-				},
-				{
-					"date": "January 20",
-					"topic": "Immigration",
-					"reversal": true,
-					"summary": "Reverses the Trump administration's restrictions on US entry for passport holders from seven Muslim-majority countries"
-				},
-				{
-					"date": "January 20",
-					"topic": "Immigration",
-					"reversal": false,
-					"summary": "Fortifies DACA after Trump's efforts to undo protections for undocumented people brought into the country as children"
-				},
-				{
-					"date": "January 20",
-					"topic": "Census",
-					"reversal": true,
-					"summary": "Requires non-citizens to be included in the Census and apportionment of congressional representatives"
-				},
-				{
-					"date": "January 20",
-					"topic": "Equity",
-					"reversal": false,
-					"summary": "Prevents workplace discrimination on the basis of sexual orientation or gender identity"
-				},
-				{
-					"date": "January 20",
-					"topic": "Equity",
-					"reversal": true,
-					"summary": "Prevents workplace discrimination on the basis of sexual orientation or gender identity"
-				},
-				{
-					"date": "January 20",
-					"topic": "Environment",
-					"reversal": true,
-					"summary": "Rescinds the Trump administration's 1776 Commission, directs agencies to review their actions to ensure racial equity"
-				},
-				{
-					"date": "January 20",
-					"topic": "Environment",
-					"reversal": true,
-					"summary": "Cancels the Keystone XL pipeline and directs agencies to review and reverse more than 100 Trump actions on the environment"
-				},
-				{
-					"date": "January 20",
-					"topic": "Environment",
-					"reversal": true,
-					"summary": "Rejoins the Paris climate accord, a process that will take 30 days"
-				},
-				{
-					"date": "January 20",
-					"topic": "Economy",
-					"reversal": false,
-					"summary": "Extends the existing pause on student loan payments and interest for Americans with federal student loans until at least September 30"
-				},
-				{
-					"date": "January 20",
-					"topic": "Economy",
-					"reversal": false,
-					"summary": "Extends the existing nationwide moratorium on evictions and foreclosures until at least March 31"
-				},
-				{
-					"date": "January 20",
-					"topic": "Coronavirus",
-					"reversal": false,
-					"summary": "Creates the position of Covid-19 Response Coordinator, reporting directly to Biden and managing efforts to produce and distribute vaccines and medical equipment"
-				},
-				{
-					"date": "January 20",
-					"topic": "Coronavirus",
-					"reversal": true,
-					"summary": "Stops the United States' withdrawal from the World Health Organization, with Dr. Anthony Fauci becoming the head of the delegation to the WHO"
-				},
-				{
-					"date": "January 20",
-					"topic": "Coronavirus",
-					"reversal": false,
-					"summary": "Launches a '100 Days Masking Challenge' asking Americans to wear masks for 100 days. Requires masks and physical distancing in federal buildings, on federal lands and by government contractors, and urges states and local governments to do the same."
-				},
-				{
-					"date": "January 21",
-					"topic": "Coronavirus",
-					"reversal": false,
-					"summary": "A presidential directive to restore America's leadership, support the international pandemic response effort, promote resilience for future threats and advance global health security and the Global Health Security Agenda"
-				},
-				{
-					"date": "January 21",
-					"topic": "Coronavirus",
-					"reversal": false,
-					"summary": "Creates the Covid-19 Health Equity Task Force to help ensure an equitable pandemic response and recovery"
-				},
-				{
-					"date": "January 21",
-					"topic": "Coronavirus",
-					"reversal": false,
-					"summary": "Requires mask wearing in airports and on certain modes of transportation, including many trains, airplanes, maritime vessels and intercity buses. International travelers must provide proof of a negative Covid-19 test prior to coming to the US"
-				},
-				{
-					"date": "January 21",
-					"topic": "Coronavirus",
-					"reversal": false,
-					"summary": ""
-				},
-				{
-					"date": "January 21",
-					"topic": "Coronavirus",
-					"reversal": false,
-					"summary": "Calls on the Occupational Safety and Health Administration to release clear guidance on Covid-19, decide whether to establish emergency temporary standards, and directs OSHA to enforce worker health and safety requirements"
-				},
-				{
-					"date": "January 21",
-					"topic": "Coronavirus",
-					"reversal": false,
-					"summary": "Directs the Department of Education and HHS to provide guidance for safely reopening and operating schools, childcare providers and institutions of higher education"
-				},
-				{
-					"date": "January 21",
-					"topic": "Coronavirus",
-					"reversal": false,
-					"summary": ""
-				},
-				{
-					"date": "January 21",
-					"topic": "Coronavirus",
-					"reversal": false,
-					"summary": "Directs FEMA to create federally-supported community vaccination centers"
-				},
-				{
-					"date": "January 21",
-					"topic": "Coronavirus",
-					"reversal": false,
-					"summary": ""
-				},
-				{
-					"date": "January 21",
-					"topic": "Coronavirus",
-					"reversal": false,
-					"summary": "Enhances the nation's collection, production, sharing and analysis of coronavirus data"
-				},
-				{
-					"date": "January 21",
-					"topic": "Coronavirus",
-					"reversal": false,
-					"summary": "Establishes a preclinical program to boost development of therapeutics in response to pandemic threats"
-				},
-				{
-					"date": "January 21",
-					"topic": "Coronavirus",
-					"reversal": false,
-					"summary": "Establishes the Pandemic Testing Board to expand US coronavirus testing capacity"
-				},
-				{
-					"date": "January 21",
-					"topic": "Coronavirus",
-					"reversal": false,
-					"summary": "Directs FEMA to expand reimbursement to states to fully cover the cost for National Guard personnel and emergency supplies"
-				},
-				{
-					"date": "January 21",
-					"topic": "Coronavirus",
-					"reversal": false,
-					"summary": "Accelerates manufacturing and delivery of supplies for vaccination, testing and Personal Protective Equipment"
-				},
-				{
-					"date": "January 22",
-					"topic": "Economy",
-					"reversal": false,
-					"summary": "Calls for assistance to those who are struggling to buy food, missed out on stimulus checks or are unemployed."
-				},
-				{
-					"date": "January 22",
-					"topic": "Economy",
-					"reversal": true,
-					"summary": "Restores collective bargaining power and worker protections for federal workers, and lays the foundation for $15 minimum wage"
-				}
-			],
-			"controvery": []
+			]
+		},
+		{
+			"senate": []
+		},
+		{
+			"congress": []
 		}
 	]
 }
